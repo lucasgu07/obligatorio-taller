@@ -1,0 +1,141 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+h1, h2, h3 {
+    margin: 0 0 1rem 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333333;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333333;
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #333333;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #555555;
+}
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-links a {
+    color: #333333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff6f61;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* Sección "Sobre Nosotros" */
+.about-section {
+    padding: 3rem 1rem;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto 2rem auto;
+    text-align: left;
+}
+
+.about-content img {
+    width: 48%;
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background-color: #ff6f61;
+    color: #ffffff;
+    padding: 0.75rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e65c54;
+}
+
+.team-section {
+    padding: 3rem 1rem;
+    background-color: #ffffff;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.team-member {
+    text-align: center;
+    max-width: 220px;
+}
+
+.team-img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    padding: 2rem 1rem;
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer-logos img {
+    max-width: 120px;
+    margin: 0 10px;
+}

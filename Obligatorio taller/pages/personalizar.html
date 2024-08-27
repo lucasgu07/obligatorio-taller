@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es"></html>
+
+<head>
+    <title><Alcomix></title>
+    <link rel="stylesheet" href="/styles/personalizar.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        <h1>Personaliza Tu Sangría</h1>
+        <p>¡Bienvenido a la experiencia de personalización de Alcomix! Aquí puedes crear la sangría perfecta para cualquier ocasión.</p>
+        <a href="/pages/home.html">Home</a>
+    </header>
+
+    <main>
+        <section>
+            <h2>Paso 1: Selección del Vino Base</h2>
+            <label><input type="radio" name="vino" value="Vino Tinto"> Vino Tinto</label>
+            <label><input type="radio" name="vino" value="Vino Blanco"> Vino Blanco</label>
+            <label><input type="radio" name="vino" value="Vino Rosado"> Vino Rosado</label>
+        </section>
+
+        <section>
+            <h2>Paso 2: Añade Frutas Frescas</h2>
+            <label><input type="checkbox" name="frutas" value="Naranjas"> Naranjas</label>
+            <label><input type="checkbox" name="frutas" value="Limones"> Limones</label>
+            <label><input type="checkbox" name="frutas" value="Manzanas"> Manzanas</label>
+            <label><input type="checkbox" name="frutas" value="Fresas"> Fresas</label>
+            <label><input type="checkbox" name="frutas" value="Melocotones"> Melocotones</label>
+            <label><input type="checkbox" name="frutas" value="Uvas"> Uvas</label>
+            <label><input type="checkbox" name="frutas" value="Frambuesas"> Frambuesas</label>
+            <label><input type="checkbox" name="frutas" value="Piñas"> Piñas</label>
+        </section>
+
+        <section>
+            <h2>Paso 3: Selección de Edulcorantes</h2>
+            <label><input type="radio" name="edulcorante" value="Azúcar Blanca"> Azúcar Blanca</label>
+            <label><input type="radio" name="edulcorante" value="Azúcar Moreno"> Azúcar Moreno</label>
+            <label><input type="radio" name="edulcorante" value="Miel"> Miel</label>
+            <label><input type="radio" name="edulcorante" value="Jarabe de Agave"> Jarabe de Agave</label>
+        </section>
+
+        <section>
+            <h2>Paso 4: Añade Licores Adicionales</h2>
+            <label><input type="checkbox" name="licores" value="Brandy"> Brandy</label>
+            <label><input type="checkbox" name="licores" value="Triple Sec"> Triple Sec</label>
+            <label><input type="checkbox" name="licores" value="Vodka"> Vodka</label>
+            <label><input type="checkbox" name="licores" value="Ron"> Ron</label>
+        </section>
+
+        <section>
+            <h2>Paso 5: Especias y Hierbas</h2>
+            <label><input type="checkbox" name="especias" value="Canela"> Canela</label>
+            <label><input type="checkbox" name="especias" value="Clavo"> Clavo</label>
+            <label><input type="checkbox" name="especias" value="Menta"> Menta</label>
+            <label><input type="checkbox" name="especias" value="Albahaca"> Albahaca</label>
+        </section>
+
+        <section>
+            <h2>Paso 6: Vista Previa y Ajustes</h2>
+            <button id="vistaPrevia">Ver Vista Previa</button>
+            <div id="preview"></div>
+            <label for="fechaEntrega">Fecha de Entrega:</label>
+            <input type="date" id="fechaEntrega">
+            <label for="envio">Opciones de Envío:</label>
+            <select id="envio">
+                <option value="estandar">Estándar</option>
+                <option value="expres">Exprés</option>
+            </select>
+            <button id="enviarPedido">Enviar Pedido</button>
+        </section>
+
+        <section>
+            <h2>Testimonios de Clientes</h2>
+            <blockquote>
+                <p>"Crear mi propia mezcla de sangría fue una experiencia divertida y gratificante. ¡Mis amigos quedaron impresionados!"</p>
+                <footer>Ana López</footer>
+            </blockquote>
+            <blockquote>
+                <p>"La calidad de los ingredientes es insuperable. La sangría personalizada de Alcomix fue el centro de atención en nuestra fiesta."</p>
+                <footer>Roberto García</footer>
+            </blockquote>
+            <blockquote>
+                <p>"Me encantó la facilidad de uso del sitio web y la posibilidad de ajustar cada detalle de mi mezcla. ¡Definitivamente lo volveré a hacer!"</p>
+                <footer>Laura Martínez</footer>
+            </blockquote>
+        </section>
+
+        <section>
+            <h2>¡Empieza Ahora!</h2>
+            <p>Haz de tu próxima celebración algo inolvidable con una sangría personalizada de Alcomix. ¡Empieza ahora y crea una bebida que todos recordarán!</p>
+            <button id="comenzar">Comienza tu Sangría</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Alcomix. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="/scripts/personalizar.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+</html>
